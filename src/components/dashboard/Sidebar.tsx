@@ -6,11 +6,11 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 
 const navItems = [
-  { label: "Overview", icon: Home, href: "#" },
-  { label: "Documents", icon: FileText, href: "#" },
-  { label: "Analytics", icon: BarChart3, href: "#" },
-  { label: "Settings", icon: Settings, href: "#" },
-  { label: "Support", icon: LifeBuoy, href: "#" },
+  { label: "Overview", icon: Home, href: "/" },
+  { label: "Documents", icon: FileText, href: "/documents" },
+  { label: "Analytics", icon: BarChart3, href: "/analytics" },
+  { label: "Settings", icon: Settings, href: "/settings" },
+  { label: "Support", icon: LifeBuoy, href: "/support" },
 ];
 
 export default function Sidebar() {
